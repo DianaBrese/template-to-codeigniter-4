@@ -58,7 +58,11 @@
                 <div class="col-lg-4">
 
                     <div class="trending _trending">
-
+                        <include-fragment src="/trendings">
+                            <div class="_container">
+                                <?php echo $this->include('_placeholders/_trending') ?>
+                            </div>
+                        </include-fragment>
                     </div>
 
                 </div> <!-- End Trending Section -->
