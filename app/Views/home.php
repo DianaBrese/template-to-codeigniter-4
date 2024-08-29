@@ -5,11 +5,13 @@
     <?= $this->endSection() ?>
 
     <?= $this->section('content') ?>
-    <!--=======Hero Slider Section=======-->
+
+<!-- Hero Slider Section -->
 <section id="hero-slider" class="hero-slider _bannerHome">
 
 
-</section><!-- End Hero Slider Section -->
+</section>
+<!-- End Hero Slider Section -->
 
 <!-- ======= Post Grid Section ======= -->
 <section id="posts" class="posts _recent">

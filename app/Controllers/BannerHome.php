@@ -3,12 +3,24 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use CodeIgniter\HTTP\ResponseInterface;
+use App\Models\Post;
 
 class BannerHome extends BaseController
 {
     public function index()
     {
-        return view('_partials/_bannerHome');
+        helper('text');
+
+        $post = new Post();
+        $recents = $post->select('posts.title, posts.description, posts.image'
+        )->join(
+            'users',
+            'users.id = posts.user_id'
+        ) -> join(
+            'categories',
+            'categories.id = posts.category_id'
+        )->orderBy('posts.id', 'desc')->findAll(4);
+
+        return view('_partials/_bannerHome', ['recents'=> $recents]);
     }
 }

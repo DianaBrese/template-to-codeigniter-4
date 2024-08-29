@@ -37,6 +37,11 @@ class Post extends Migration
                 'null' => false,
                 'constraint' => 255
             ],
+            'visits' => [
+                'type' => 'INT',
+                'null' => false,
+                'default' => 0,
+            ],
             'image' => [
                 'type' => 'VARCHAR',
                 'constraint'=> 255,

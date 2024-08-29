@@ -1,0 +1,156 @@
+CRITICAL - 2024-08-27 18:09:11 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: category/business]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 3 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('business')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:12 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: category/culture]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 3 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('culture')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:12 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: category/lifestyle]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 3 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lifestyle')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:32 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: category/lifestyle]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 3 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lifestyle')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:32 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: category/business]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 3 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('business')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:32 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: category/culture]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 3 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('culture')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:51 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/culture]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 APPPATH\Views\_partials\_category.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 5 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('culture')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:52 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/business]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 APPPATH\Views\_partials\_category.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 5 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('business')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:09:52 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/lifestyle]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 APPPATH\Views\_partials\_category.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 5 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lifestyle')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:10:11 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/culture]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 APPPATH\Views\_partials\_category.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 5 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('culture')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:10:11 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/business]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 APPPATH\Views\_partials\_category.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 5 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('business')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-27 18:10:12 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/lifestyle]
+in APPPATH\Views\_partials\_category.php on line 4.
+ 1 APPPATH\Views\_partials\_category.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\_partials\\_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('_partials/_category', [], true)
+ 5 APPPATH\Controllers\Category.php(39): view('_partials/_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lifestyle')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
