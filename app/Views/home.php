@@ -23,7 +23,7 @@
 
 <!-- ======= Culture Category Section ======= -->
 <section class="category-section _category_culture">
-    <include-fragment src="/category/culture">
+    <include-fragment src="/category/partials/culture">
         <?php echo $this->include('_placeholders/_category') ?>
     </include-fragment>
 
@@ -31,14 +31,14 @@
 
 <!-- ======= Business Category Section ======= -->
 <section class="category-section _category_business">
-    <include-fragment src="/category/business">
+    <include-fragment src="/category/partials/business">
         <?php echo $this->include('_placeholders/_category') ?>
     </include-fragment>
 </section><!-- End Business Category Section -->
 
 <!-- ======= Lifestyle Category Section ======= -->
 <section class="category-section _category_lifestyle">
-    <include-fragment src="/category/lifestyle">
+    <include-fragment src="/category/partials/lifestyle">
         <p>Loading <?php echo $this->include('_placeholders/_category') ?>
             ...</p>
     </include-fragment>
