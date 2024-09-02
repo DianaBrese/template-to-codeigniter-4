@@ -1,0 +1,888 @@
+CRITICAL - 2024-09-02 19:01:54 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: category/lot]
+in APPPATH\Controllers\Category.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Category')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Category')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Category', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:04:37 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/lot]
+in APPPATH\Views\category.php on line 9.
+ 1 APPPATH\Views\category.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('category', [], true)
+ 5 APPPATH\Controllers\Category.php(30): view('category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lot')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:04:50 --> ErrorException: Attempt to read property "categoryName" on array
+[Method: GET, Route: category/lot]
+in APPPATH\Views\category.php on line 9.
+ 1 APPPATH\Views\category.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "categoryName" on array', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('category', [], true)
+ 5 APPPATH\Controllers\Category.php(30): view('category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lot')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:06:11 --> ErrorException: Undefined variable $post
+[Method: GET, Route: category/lot]
+in APPPATH\Views\category.php on line 9.
+ 1 APPPATH\Views\category.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('category', [], true)
+ 5 APPPATH\Controllers\Category.php(30): view('category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lot')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:06:41 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: category/lot]
+in APPPATH\Controllers\Category.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Category')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Category')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Category', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:09:19 --> ErrorException: Undefined property: stdClass::$CategoryName
+[Method: GET, Route: category/lot]
+in APPPATH\Views\category.php on line 17.
+ 1 APPPATH\Views\category.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CategoryName', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('category', [], true)
+ 5 APPPATH\Controllers\Category.php(31): view('category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lot')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:18:04 --> TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given
+[Method: GET, Route: category/lot]
+in APPPATH\Views\category.php on line 17.
+ 1 APPPATH\Views\category.php(17): strtotime('d/m/Y H:i:s', '2024-08-29 15:37:39')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('category', [], true)
+ 5 APPPATH\Controllers\Category.php(31): view('category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lot')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:19:12 --> ErrorException: Undefined property: stdClass::$title
+[Method: GET, Route: category/lot]
+in APPPATH\Views\category.php on line 18.
+ 1 APPPATH\Views\category.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$title', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('category', [], true)
+ 5 APPPATH\Controllers\Category.php(31): view('category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('lot')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:52 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:52 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:52 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:53 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:53 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:53 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:56 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:56 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:56 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:57 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:57 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:44:57 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:02 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:02 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:02 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:03 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:03 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:04 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:05 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:05 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:06 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:06 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:06 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:06 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:10 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:10 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:11 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:11 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:11 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:12 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:20 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:21 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:21 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:21 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:21 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:45:22 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:09 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:09 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:09 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:10 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:10 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:10 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:14 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:14 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:14 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:15 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:15 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:48:15 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:49:12 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 19:49:31 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:35:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:35:06 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:35:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:36:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:38:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:38:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:38:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:38:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "la-réunion"
+[Method: GET, Route: category/la-r%C3%A9union]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('category/la-réunion')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('category/la-réunion')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:37 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:37 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:37 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:37 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:37 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:38 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:54 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/index.html]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('index.html')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:41:59 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:42:01 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/index.html]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('index.html')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:42:03 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-landscape-5.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-landscape-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:42:03 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-3.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:42:03 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-2.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:42:03 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-1.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:42:04 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/post-sq-4.jpg]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'post-sq-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-02 20:42:04 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: category/assets/img/favicon.png]
+in APPPATH\Controllers\Category.php on line 29.
+ 1 APPPATH\Controllers\Category.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Controllers\\Category.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Category->index('assets', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
