@@ -17,7 +17,7 @@ class Category extends BaseController
        
         $post = new Post();
         $post->select(
-            'posts.id, posts.image, ,posts.title, posts.created_at, posts.slug, posts.description, categories.name as categoryName, users.firstName as userFirstName, users.lastName as userLastName'
+            'posts.id, posts.image, ,posts.title, posts.created_at, posts.slug, posts.description, categories.name as categoryName, users.firstName as userFirstName, users.lastName as userLastName, users.image as userImage'
         )->join(
             'users',
             'users.id = posts.user_id '

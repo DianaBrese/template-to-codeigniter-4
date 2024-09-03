@@ -25,7 +25,7 @@ class CategoryPartials extends BaseController
 
         $post = new Post();
         $posts = $post->select(
-            'posts.title, posts.image, posts.description, posts.slug, posts.created_at, users.firstName as userFirstName, users.lastName as userLastName, categories.name as categoryName, category_id'
+            'posts.title, posts.image, posts.description, posts.slug, posts.created_at, users.firstName as userFirstName, users.lastName as userLastName, users.image as userImage,  categories.name as categoryName, category_id'
         )->where('category_id', $categoryId)
             ->join(
                 'users',

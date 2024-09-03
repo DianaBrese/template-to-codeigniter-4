@@ -12,9 +12,10 @@ class User extends Seeder
         $faker = Factory::create('pt_BR');
         for($i = 1; $i<= 100; $i++) {
             $data = [
-                'firstName' => $faker->firstName,
-                'lastName' => $faker->lastName,
-                'email' => $faker->email,
+                'firstName' => $faker->firstNameMale(),
+                'lastName' => $faker->lastName(),
+                'email' => $faker->email(),
+                'image' => 'https://randomuser.me/api/portraits/men/'.rand(1,90).'.jpg',
                 'password' => password_hash('123', PASSWORD_DEFAULT),
             ];
             $this->db->table('users')->insert($data);

@@ -27,6 +27,11 @@ class User extends Migration
                 'null' => false,
                 'constraint' => 100
             ],
+            'image' => [
+                'type' => 'VARCHAR',
+                'null' => true,
+                'constraint' => 100
+            ],
             'email' => [
                 'type' => 'VARCHAR',
                 'null' => false,

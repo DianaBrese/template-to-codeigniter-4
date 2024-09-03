@@ -11,7 +11,7 @@ class Category extends Seeder
     {
         $faker = Factory::create('fr_FR');
         for($i = 1; $i<= 10; $i++) {
-            $department = $faker->departmentName;
+            $department = $faker->unique()->departmentName;
             $data = [
                 'name' => $department,
                 'slug' => strtolower(str_replace(' ', '-', $department)),

@@ -19,7 +19,7 @@
                     <h3><a href="single-post.html"><?php echo $posts[0]->title ?></a></h3>
                     <p><?php echo word_limiter($posts[0]->description, 50)  ?></p>
                     <div class="d-flex align-items-center author">
-                        <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div>
+                        <div class="photo"><img src="<?php echo $posts[0]->userImage ?>" alt="" class="img-fluid"></div>
                         <div class="name">
                             <h3 class="m-0 p-0"><?php echo $posts[0]->userFirstName ?> <?php echo $posts[0]->userLastName ?></h3>
                         </div>
