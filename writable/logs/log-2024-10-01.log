@@ -1,0 +1,14 @@
+CRITICAL - 2024-10-01 16:58:49 --> ErrorException: Attempt to read property "categoryName" on null
+[Method: GET, Route: post/loz%C3%A8re]
+in APPPATH\Views\partials\post.php on line 12.
+ 1 APPPATH\Views\partials\post.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "categoryName" on null', 'C:\\projects\\template-to-codeigniter-4\\app\\Views\\partials\\post.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\projects\\template-to-codeigniter-4\\app\\Views\\partials\\post.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('partials/post', [], true)
+ 5 APPPATH\Controllers\Post.php(27): view('partials/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->index('lozère')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

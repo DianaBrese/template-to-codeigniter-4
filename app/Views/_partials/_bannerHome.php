@@ -5,7 +5,7 @@
                 <div class="swiper-wrapper">
                     <?php foreach ($recents as $recent): ?>
                     <div class="swiper-slide">
-                        <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('<?php echo $recent->image ?>');">
+                        <a href="/post/<?php echo $recent->slug ?>" class="img-bg d-flex align-items-end" style="background-image: url('<?php echo $recent->image ?>');">
                             <div class="img-bg-inner">
                                 <h2><?php echo $recent->title ?></h2>
                                 <p><?php echo word_limiter($recent->description, 50) ?></p>

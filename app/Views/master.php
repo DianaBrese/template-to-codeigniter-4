@@ -43,6 +43,7 @@
 </head>
 
 <body>
+  
     <?= $this->include('partials/header') ?>
     <main id="main">
         <?= $this->renderSection('content') ?>

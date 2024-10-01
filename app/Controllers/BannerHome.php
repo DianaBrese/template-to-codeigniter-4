@@ -12,7 +12,7 @@ class BannerHome extends BaseController
         helper('text');
 
         $post = new Post();
-        $recents = $post->select('posts.title, posts.description, posts.image'
+        $recents = $post->select('posts.title, posts.description, posts.image, posts.slug, '
         )->join(
             'users',
             'users.id = posts.user_id'

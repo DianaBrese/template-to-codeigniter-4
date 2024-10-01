@@ -10,6 +10,7 @@ class CategoryMenu
         $category = new Category();
         $categories = $category->select('categories.name, categories.slug')->findAll();
 
+      
         return view("partials/cell/{$view}", ['categories'=> $categories]);
 
     }

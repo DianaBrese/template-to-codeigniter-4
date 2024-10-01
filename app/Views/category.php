@@ -10,12 +10,12 @@
 
         <?php foreach ($posts as $post): ?>
           <div class="d-md-flex post-entry-2 half">
-            <a href="single-post.html" class="me-4 thumbnail">
+            <a href="/post/<?php echo $post->slug ?>" class="me-4 thumbnail">
               <img src="<?php echo $post->image ?>" alt="" class="img-fluid">
             </a>
             <div>
               <div class="post-meta"><span class="date"><?php echo $post->categoryName ?></span> <span class="mx-1">&bullet;</span> <span><?php echo date('d/m/Y H:i:s', strtotime($post->created_at)) ?></span></div>
-              <h3><a href="single-post.html"><?php echo $post->title ?></a></h3>
+              <h3><a href="/post/<?php echo $post->slug ?>"><?php echo $post->title ?></a></h3>
               <p><?php echo word_limiter($post->description, 200) ?></p>
               <div class="d-flex align-items-center author">
                 <div class="photo"><img src="<?php echo $post->userImage ?>" alt="" class="img-fluid"></div>
@@ -32,13 +32,6 @@
         <div class="text-start py-4">
           <div class="custom-pagination">
             <?php echo $pager->links(); ?>
-            <!-- <a href="#" class="prev">Prevous</a>
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#" class="next">Next</a> -->
           </div>
         </div>
       </div>
