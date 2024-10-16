@@ -25,7 +25,7 @@
 <link href="<?php echo base_url('assets/vendor/bootstrap-icons/bootstrap-icons.css') ?>" rel="stylesheet">
 <link href="<?php echo base_url('assets/vendor/swiper/swiper-bundle.min.css') ?>" rel="stylesheet">
 <link href="<?php echo base_url('assets/vendor/glightbox/css/glightbox.min.css') ?>" rel="stylesheet">
-<link href="<?php echo base_url('assets/vendor/aos/aos.css') ?> rel=" stylesheet">
+<link href="<?php echo base_url('assets/vendor/aos/aos.css') ?>"rel="stylesheet">
 <link rel="stylesheet" href="<?php echo base_url('assets/css/fragment.css'); ?>">
 
 
